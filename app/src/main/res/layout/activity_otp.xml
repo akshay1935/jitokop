@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OTPActivity">
+
+    <TextView
+            android:text="OTP"
+            android:layout_marginTop="50dp"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:id="@+id/etOTP"
+            android:layout_marginTop="70dp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:hint="Enter OTP"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btnSubmit"
+            android:layout_marginTop="30dp"
+            android:text="SUBMIT"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/button_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+
+</LinearLayout>

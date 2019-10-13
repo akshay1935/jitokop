@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/menu_member"
+            app:cardCornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <LinearLayout
+                android:background="#7540d685"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:src="@drawable/birthday_72dpi"
+                    android:padding="10dp"/>
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="4"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="Akshay Mahadev Jadhav"
+                        android:padding="5dp"
+                        android:textColor="@color/blue"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textSize="16sp"
+                        android:text="Kagal"
+                        android:padding="5dp"
+                        android:textColor="@color/blue"/>
+            </LinearLayout>
+
+            <View
+                    android:background="@color/blue"
+                    android:padding="5dp"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"></View>
+            <ImageView
+                    android:src="@drawable/ic_call"
+                    android:padding="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
